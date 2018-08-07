@@ -1,0 +1,73 @@
+<% include partials/header %>
+
+<link rel="stylesheet" type="text/css" href="/css/detectorresult.css">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> <span id="brandGRE">GRE</span></a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="/gamepage">GAME <span class="sr-only">(current)</span></a></li>
+	        <li class="active"><a href="/wordlist">WORD LIST</a></li>
+	        <li class="active"><a href="/detector">WORD DETECTOR</a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <!-- <li><a href="#">Link</a></li> -->
+	        <% if (!currentUser) { %>
+	        <li><a href="/login"><i class="fas fa-user-plus"></i> Login</a></li>
+	        <li><a href="/register"><i class="fas fa-user-edit"></i> Sign up</a></li>
+	        <% } else { %>
+	        <li><a href="#"><i class="fas fa-user"></i> <%= currentUser.username %></a></li>
+	        <li><a href="/logout"><i class="fas fa-user-minus"></i> Logout</a></li>
+	        <% } %>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Navigation <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="/">Homepage</a></li>
+	            <li><a href="/gamepage">Game</a></li>
+	            <li><a href="/wordlist">Word List</a></li>
+	            <li><a href="/detector">Word Detector</a></li>
+	           <!--  <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li> -->
+	          </ul>
+	        </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	
+	<div id="container" class="parseresult">
+		<h1>Parse Result</h1>
+		<ul id="scrollit">
+			<% for (var i in grewordObj) { %>
+			<li>
+				<span id="word"><%= i %></span> -
+				<% if (grewordObj[i] > 1) { %>
+				<span id="times"><%= grewordObj[i] %></span> times
+				<% } else { %>
+				<span id="times">1 </span>time
+				<% } %>
+				<a href="/searchresult"><span id="search" class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+			</li>
+			<% } %>
+		</ul>
+	</div>
+	
+	
+	
+	
+<p style="font-size:large; position: absolute; text-align: center; right: 0; bottom:60px; left:0;">Online Dictionary Application 2018</p>
+
+<script type="text/javascript" src="/javascript/detectorresult.js"></script>
+
+<% include partials/footer %>

@@ -1,0 +1,187 @@
+body {
+	background-image: url(/background_of_gamepage.jpg);
+	background-size: cover;
+}
+
+html {
+	height: 100%;
+}
+
+#brandGRE {
+	font-size: 25px;
+}
+
+.navbar {
+	background-color: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav > .active > a  {
+	background-color: #2c3e50;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.jumbotron h1 {
+	font-family: 'Jua', sans-serif;
+	text-align: center;
+}
+
+.jumbotron p {
+	font-family: 'Jua', sans-serif;
+	text-align: center;
+}
+
+.jumbotron {
+	padding-top: 60px;
+	height: 210px;
+	margin-bottom: 0;
+	border-bottom: solid black;
+}
+
+#brandGRE {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-menu>li>a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.jumbotron h1 #player1 {
+	/*text-align: left;*/
+	/*display: inline-block;*/
+	float: left;
+	padding-left: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron h1 #player2 {
+	/*text-align: right;*/
+	/*display: inline-block;*/
+	float: right;
+	padding-right: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron h1 {
+	text-align: center;
+}
+
+.game {
+	background-color: #f7f7f7;
+	width: 500px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgb(0, 0, 0, 0.1);
+	font-family: 'Slabo 27px', serif;
+}
+
+.game h1 {
+	background-color: #29b998;
+	color: white;
+	margin: 0;
+	padding:10px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.game ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.game li {
+	background-color: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	font-size: large;
+	font-family: 'Questrial', sans-serif;
+	padding-left: 10px;
+}
+
+.game li:nth-child(2n) {
+	background-color: #f7f7f7;
+}
+
+
+.game h1 .fa-trophy {
+	float: right;
+}
+
+.game ul span {
+	height: 40px;
+	margin-right: 10px;
+	text-align: center;
+	color: #666;
+	width: 40px;
+	display: inline-block;
+}
+
+.game h1 #synonym {
+	text-transform: lowercase;
+	font-weight: normal;
+	font-style: italic;
+	color: white;
+	margin-left: 40px;
+}
+
+.game ul li i {
+	margin-right: 25px;
+	float: right;
+	line-height: inherit;
+	opacity: 0;
+}
+
+
+/*.game #answer {*/
+/*	font-style: italic;*/
+/*	text-align: center;*/
+/*	font-size: 25px;*/
+/*}*/
+
+/*.game li .iconT {*/
+/*	float: right;*/
+/*	width: 40px;*/
+/*	height: 40px;*/
+/*	display: inline-block;*/
+/*	text-align:	center;*/
+/*	opacity: 0;*/
+/*}*/
+
+/*.game li .iconF {*/
+/*	float: right;*/
+/*	width: 40px;*/
+/*	height: 40px;*/
+/*	display: inline-block;*/
+/*	text-align:	center;*/
+/*	opacity: 0;*/
+/*}*/
+
+
+
+
+
+
+
+

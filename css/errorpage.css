@@ -1,0 +1,81 @@
+body {
+	background-image: url(/background_of_errorpage.jpg);
+	background-size: cover;
+}
+
+html {
+	height: 100%;
+}
+
+#brandGRE {
+	font-size: 25px;
+}
+
+.navbar {
+	background-color: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav > .active > a  {
+	background-color: #2c3e50;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.jumbotron h1 {
+	font-family: 'Jua', sans-serif;
+	text-align: center;
+}
+
+.jumbotron p {
+	font-family: 'Jua', sans-serif;
+	text-align: center;
+}
+
+/*.jumbotron {*/
+/*	padding-top: 60px;*/
+/*	height: 210px;*/
+/*	margin-bottom: 0;*/
+/*}*/
+
+#brandGRE {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-menu>li>a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#errorpage {
+	margin-top: 100px;
+	box-shadow: 0 0 3px rgb(0, 0, 0, 0.1);
+	font-family: 'Slabo 27px', serif;
+	margin-bottom: 60px;
+	padding:20px;
+}
+
+#errorpage h1 {
+	font-weight: bold;
+	font-size: 50px;
+}
+
+form #button {
+	text-align: center;
+}

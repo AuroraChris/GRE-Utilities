@@ -1,0 +1,151 @@
+body {
+	background-image: url(/background_of_listpage.jpg);
+	background-size: cover;
+}
+
+html {
+	height: 100%;
+}
+
+#brandGRE {
+	font-size: 25px;
+}
+
+.navbar {
+	background-color: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav > .active > a  {
+	background-color: #2c3e50;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.jumbotron h1 {
+	font-family: 'Jua', sans-serif;
+	text-align: center;
+}
+
+.jumbotron p {
+	font-family: 'Jua', sans-serif;
+	text-align: center;
+}
+
+.jumbotron {
+	padding-top: 60px;
+	height: 210px;
+	margin-bottom: 0;
+}
+
+#brandGRE {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-menu>li>a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wordlist {
+	background-color: #f7f7f7;
+	width: 500px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgb(0, 0, 0, 0.1);
+	font-family: 'Slabo 27px', serif;
+}
+
+.wordlist h1 {
+	background-color: #2980b9;
+	color: white;
+	margin: 0;
+	padding:10px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.wordlist ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.wordlist li {
+	background-color: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	font-size: large;
+	font-family: 'Questrial', sans-serif;
+}
+
+.wordlist li:nth-child(2n) {
+	background-color: #f7f7f7;
+}
+
+.wordlist input {
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 18px;
+	background-color: #f7f7f7;
+	padding: 13px 13px 13px 20px;
+	border: 0.5px solid white;
+}
+
+.wordlist input:focus {
+	background: #fff;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+
+.wordlist h1 .fa-pencil-alt {
+	float: right;
+}
+
+.wordlist #trash {
+	background-color: #e74c3c;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0px;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+.wordlist li:hover #trash {
+	width: 40px;
+	opacity: 1.0;
+}
+
+.wordlist #scrollit {
+	overflow: scroll;
+	max-height: 500px;
+}
+
+.wordlist #search {
+	float: right;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 25px;
+}
+
